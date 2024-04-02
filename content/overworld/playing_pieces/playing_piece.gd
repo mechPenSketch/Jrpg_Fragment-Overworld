@@ -51,12 +51,6 @@ func _ready():
 		hide()
 
 
-func _notification(what):
-	match what:
-		NOTIFICATION_NODE_RECACHE_REQUESTED:
-			moved.emit(self, get_position())
-
-
 ## Returns the movement duration, which is typically
 ## gotten from the length of a walking animation.
 ##
