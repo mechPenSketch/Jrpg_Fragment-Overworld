@@ -45,8 +45,6 @@ func _enter_tree():
 		nearest_game_board = null
 		show_or_hide_new_toolbtns(scene_root)
 	)
-	
-	show_or_hide_new_toolbtns(get_editor_interface().get_edited_scene_root())
 
 
 func _exit_tree():
